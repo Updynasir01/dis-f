@@ -3,12 +3,12 @@ import { Suspense, lazy } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import LoadingSpinner from './components/LoadingSpinner'
-import Home from './Pages/Home'
-import About from './Pages/About'
-import Services from './Pages/Services'
-import News from './Pages/News'
-import Contact from './Pages/Contact'
-import AdminDashboard from './Pages/AdminDashboard'
+import Home from './pages/Home'
+import About from './pages/About'
+import Services from './pages/Services'
+import News from './pages/News'
+import Contact from './pages/Contact'
+import AdminDashboard from './pages/AdminDashboard'
 
 // Lazy load pages for better performance
 const Leadership = lazy(() => import('./pages/Leadership'))
