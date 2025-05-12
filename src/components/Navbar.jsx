@@ -27,7 +27,7 @@ function Navbar() {
                 alt="District Logo"
               />
               <span className="ml-2 text-xl font-bold text-gray-800">
-                District Name
+                Hodan District 
               </span>
             </Link>
           </div>
